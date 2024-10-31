@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "xKjlC9K4EpA6TolYZtNArzrhG6KW4ftwM18J9tFNTsXzOBWby6nPU5jn8z9dxaCNbRWaS7KEwpUhkM0iwk+pYg==",
+  "success": true,
+  "projectFilePath": "D:\\DiceyDelight\\DiceyDelight\\DiceyDelight.iOS\\DiceyDelight.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Williams_Fam\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Williams_Fam\\.nuget\\packages\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
+    "C:\\Users\\Williams_Fam\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Williams_Fam\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Williams_Fam\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

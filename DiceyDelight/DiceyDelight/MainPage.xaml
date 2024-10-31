@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiceyDelight.MainPage"
+             BackgroundColor="#F0F0F5">
+
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="Dice2.jpg"
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+                   AbsoluteLayout.LayoutFlags="All" />
+
+            <StackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand" 
+                         AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" 
+                         AbsoluteLayout.LayoutFlags="PositionProportional">
+                
+                <StackLayout Padding="0, 0, 0, 20">                    
+                    <Label Text="Enter Name"
+                            FontSize="Large"
+                            HorizontalOptions="Center"
+                            TextColor="Black" />
+
+                    <Entry Placeholder="Enter your name"
+                                x:Name="NameInput"
+                                WidthRequest="230"
+                                HorizontalOptions="Center"
+                                BackgroundColor="GhostWhite"
+                                TextColor="Black" />
+                </StackLayout>
+                
+                <Label Text="Choose Difficulty Level" 
+                       HorizontalOptions="Center" 
+                       FontSize="Subtitle"
+                       TextColor="Orange" />
+                
+                <Button Text="Easy"
+                        BackgroundColor="#FF4C4C"
+                        TextColor="White"
+                        WidthRequest="200"
+                        CornerRadius="10"
+                        HorizontalOptions="Center"
+                        Clicked="OnEasyClicked" />
+
+                <Button Text="Intermediate"
+                        BackgroundColor="#FF4C4C"
+                        TextColor="White"
+                        WidthRequest="200"
+                        CornerRadius="10"
+                        HorizontalOptions="Center"
+                        Clicked="OnIntermediateClicked" />
+
+                <Button Text="Hard"
+                        BackgroundColor="#FF4C4C"
+                        TextColor="White"
+                        WidthRequest="200"
+                        CornerRadius="10"
+                        HorizontalOptions="Center"
+                        Clicked="OnHardClicked" />
+
+                <StackLayout Padding="0, 45, 0, 0" >
+                    <BoxView HeightRequest="5" 
+                            BackgroundColor="#FFC107" 
+                            HorizontalOptions="FillAndExpand" />
+
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal" Spacing="10" Padding="0, 45, 0, 0">
+                    <Label x:Name="HighestScoreLabel" 
+                           Text="Highest Score: 0" 
+                           FontSize="Medium"
+                           HorizontalOptions="StartAndExpand" 
+                           TextColor="Black"
+                           VerticalOptions="Center" />
+
+                    <Button Text="RESET"
+                            BackgroundColor="#FFC107"
+                            TextColor="White"
+                            WidthRequest="80"
+                            CornerRadius="10"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"
+                            Clicked="OnResetClicked" />
+                </StackLayout>
+            </StackLayout>
+        </AbsoluteLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
+    

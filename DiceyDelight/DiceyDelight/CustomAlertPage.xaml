@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiceyDelight.CustomAlertPage">
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+
+            <Image x:Name="AlertImage"
+               HorizontalOptions="Center"
+               HeightRequest="200" />
+
+            <Label x:Name="AlertMessage" FontSize="Large" HorizontalOptions="Center" TextColor="Black" Text="Game Over" />
+
+            <Button Text="New Game!!"
+                FontSize="Medium"
+                BackgroundColor="#FF4C4C"
+                TextColor="White"
+                WidthRequest="150"
+                Clicked="OnOkButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

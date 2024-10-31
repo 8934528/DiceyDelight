@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiceyDelight.LoadingPage"
+             BackgroundColor="LightBlue">
+
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="Dice2.jpeg"
+               Aspect="AspectFill" 
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+               AbsoluteLayout.LayoutFlags="All" />
+
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20" Padding="0, 40, 0, 0"
+                     AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Welcome to " 
+                              FontAttributes="Italic" 
+                              TextColor="Black"
+                              FontSize="Large" />
+                            <Span Text="DiceyDelight" 
+                              TextColor="#FF4C4C" 
+                              FontSize="Large" />
+                        </FormattedString>
+                    </Label.FormattedText>
+
+                    <Label.HorizontalOptions>
+                        <OnPlatform x:TypeArguments="LayoutOptions">
+                            <On Platform="iOS" Value="Center" />
+                            <On Platform="Android" Value="Center" />
+                            <On Platform="UWP" Value="Center" />
+                        </OnPlatform>
+                    </Label.HorizontalOptions>
+                </Label>
+
+                <Label Text="Let's Play" 
+                   FontSize="Medium" 
+                   HorizontalOptions="Center" 
+                   TextColor="Black" />
+
+                <ActivityIndicator IsRunning="True" 
+                               IsVisible="True" 
+                               VerticalOptions="Center" 
+                               HorizontalOptions="Center" 
+                               Color="#FF4C4C"
+                               HeightRequest="100" 
+                               WidthRequest="100"/>
+
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

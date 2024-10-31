@@ -1,0 +1,315 @@
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.dll
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.pdb
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDel.78B04203.Up2Date
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\Hp\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.dll
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.pdb
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\optimized\
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDel.78B04203.Up2Date
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\hp\OneDrive - University of Fort Hare\Desktop\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.exe
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.dll
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.pdb
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\optimized\
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.AssemblyReference.cache
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.CoreCompileInputs.cache
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDel.78B04203.Up2Date
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.exe
+E:\Mihlali\MOBILE APPLICATIONS DEVELOPMENT\Group  Project\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.dll
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.pdb
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\optimized\
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.AssemblyReference.cache
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.CoreCompileInputs.cache
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDel.78B04203.Up2Date
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\anele\Pictures\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.iOS.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.dll
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\bin\iPhone\Debug\DiceyDelight.pdb
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\optimized\
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.AssemblyReference.cache
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.csproj.CoreCompileInputs.cache
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDel.78B04203.Up2Date
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.exe
+C:\Users\anele\Videos\DiceyDelight\DiceyDelight\DiceyDelight.iOS\obj\iPhone\Debug\DiceyDelight.iOS.pdb
