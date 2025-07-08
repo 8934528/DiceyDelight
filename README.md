@@ -31,9 +31,9 @@ This project was developed as part of our university assignment to demonstrate o
 ✅ It helped us practice **collaboration, version control, and agile methodologies**.  
 
 ## How to Play  
-1. Download the app (APK or from the app store).  
-2. Launch **DiceyDelight** and choose **"Play vs Computer"**.  
-3. Take turns rolling the dice and eliminating numbers.  
+1. 
+2. 
+3. 
 4. The first to clear their stack wins! 🏆  
 
 ---  
