@@ -1,4 +1,4 @@
-# DiceyDelight 🎲✨  
+# DiceyDelight  
 
 DiceyDelight is an exciting dice-rolling game developed as a school project by a group of students from the University of Fort Hare. This app pits a human player against the computer in a strategic battle of luck and numbers.  
 
@@ -25,16 +25,15 @@ The **sum of the two standard dice** determines which numbers are eliminated fro
 
 ## Why We Created This App  
 This project was developed as part of our university assignment to demonstrate our understanding of software development, teamwork, and problem-solving. We chose a dice game because:  
-✅ It’s **fun and interactive** for players.  
-✅ It combines **luck and strategy**, making gameplay dynamic.  
-✅ It allowed us to explore **multi-platform development** (mobile & web).  
-✅ It helped us practice **collaboration, version control, and agile methodologies**.  
+ 1. It’s **fun and interactive** for players.  
+ 2. It combines **luck and strategy**, making gameplay dynamic.  
+ 3. It allowed us to explore **multi-platform development** (mobile & web).  
+ 4. It helped us practice **collaboration, version control, and agile methodologies**.  
 
 ## How to Play  
 1. 
 2. 
 3. 
-4. The first to clear their stack wins! 🏆  
+4. The first to clear their stack wins! 
 
 ---  
-**Developed with ❤️ by [WebMaster] @ University of Fort Hare**  
