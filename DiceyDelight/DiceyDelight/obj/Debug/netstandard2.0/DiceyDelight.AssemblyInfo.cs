@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiceyDelight")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c0bbb3462d2b3a782c3d20829d02f2ddabbf8ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22578c1ba9d32d114614dbfa996bfa0952bef38e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiceyDelight")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiceyDelight")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
