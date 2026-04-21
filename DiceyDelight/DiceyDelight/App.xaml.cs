@@ -12,32 +12,42 @@ namespace DiceyDelight
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new LoadingPage()) 
-            { 
-                BarBackgroundColor = Color.FromHex("#FF4C4C"),
-                BarTextColor = Color.White
-            };
-            HighestScore = 0;
+            MainPage = new NavigationPage(new LoadingPage()); 
+            HighestScore = 0; 
         }
 
-        protected override void OnStart() => LoadHighestScore();
-        protected override void OnSleep() => SaveHighestScore();
-        protected override void OnResume() => LoadHighestScore();
+        protected override void OnStart()
+        {
+            LoadHighestScore();
+        }
+
+        protected override void OnSleep()
+        {
+            SaveHighestScore();
+        }
+
+        protected override void OnResume()
+        {
+            LoadHighestScore();
+        }
 
         public void LoadHighestScore()
         {
-            if (Properties.ContainsKey(HighestScoreKey))
+            if (Application.Current.Properties.ContainsKey(HighestScoreKey))
             {
-                HighestScore = (int)Properties[HighestScoreKey];
-                if (MainPage is NavigationPage navPage && navPage.CurrentPage is MainPage mainPage)
+                HighestScore = (int)Application.Current.Properties[HighestScoreKey];
+
+                if (Application.Current.MainPage is NavigationPage navPage && navPage.CurrentPage is MainPage mainPage)
+                {
                     mainPage.UpdateHighestScoreLabel(HighestScore);
+                }
             }
         }
 
         public async void SaveHighestScore()
         {
-            Properties[HighestScoreKey] = HighestScore;
-            await SavePropertiesAsync();
+            Application.Current.Properties[HighestScoreKey] = HighestScore;
+            await Application.Current.SavePropertiesAsync();
         }
     }
 }
