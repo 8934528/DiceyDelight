@@ -1,0 +1,103 @@
+# =================
+# Visual Studio / IDE
+# =================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncb
+*.sdf
+*.opensdf
+*.dbmdl
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# =================
+# Build outputs
+# =================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.nupkg
+*.snk
+*.log
+*.cache
+*.tmp
+
+# =================
+# .NET / ASP.NET Core
+# =================
+packages/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+wwwroot/dist/
+ClientBin/
+
+# =================
+# Xamarin (Android & iOS)
+# =================
+# Android
+*.apk
+*.aab
+*.dex
+*.keystore
+*.key
+*.jks
+*.cert
+*.pfx
+*.p12
+
+# iOS / macOS
+*.ipa
+*.app
+*.dSYM
+*.xcarchive
+*.mobileprovision
+DerivedData/
+build/
+
+# =================
+# Test results & coverage
+# =================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml   # just one line covers all .coveragexml files
+
+# =================
+# Logs, temp, backups
+# =================
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =================
+# User-specific files
+# =================
+*.user
+*.csproj.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.ncb
+*.sdf
