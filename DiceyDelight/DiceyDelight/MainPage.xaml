@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DiceyDelight.MainPage"
-             BackgroundColor="#F0F0F5">
+             Title="DiceyDelight">
 
     <ContentPage.Content>
         <AbsoluteLayout>
@@ -11,80 +11,102 @@
                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
                    AbsoluteLayout.LayoutFlags="All" />
 
-            <StackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand" 
+            <BoxView Color="#80000000"
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All" />
+
+            <!-- Main Content -->
+            <StackLayout Padding="30, 60, 30, 30"
+                         Spacing="25"
+                         VerticalOptions="Center"
                          AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" 
                          AbsoluteLayout.LayoutFlags="PositionProportional">
-                
-                <StackLayout Padding="0, 0, 0, 20">                    
-                    <Label Text="Enter Name"
-                            FontSize="Large"
-                            HorizontalOptions="Center"
-                            TextColor="Black" />
 
-                    <Entry Placeholder="Enter your name"
-                                x:Name="NameInput"
-                                WidthRequest="230"
-                                HorizontalOptions="Center"
-                                BackgroundColor="GhostWhite"
-                                TextColor="Black" />
+                <StackLayout Spacing="5">
+                    <Label Text="ENTER YOUR NAME"
+                           FontSize="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           TextColor="#FFD700"
+                           HorizontalTextAlignment="Center" />
+
+                    <Entry x:Name="NameInput"
+                           Placeholder="your name here"
+                           PlaceholderColor="#BDBDBD"
+                           TextColor="#F5F5F5"
+                           FontSize="20"
+                           WidthRequest="300"
+                           HorizontalOptions="Center"
+                           HorizontalTextAlignment="Center" />
                 </StackLayout>
-                
-                <Label Text="Choose Difficulty Level" 
+
+                <!-- Difficulty Selection -->
+                <Label Text="⚡ SELECT DIFFICULTY ⚡"
                        HorizontalOptions="Center" 
-                       FontSize="Subtitle"
-                       TextColor="Orange" />
-                
-                <Button Text="Easy"
-                        BackgroundColor="#FF4C4C"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#FFD700"
+                       HorizontalTextAlignment="Center" />
+
+                <!-- Difficulty Buttons -->
+                <Button Text="EASY"
+                        BackgroundColor="#2ECC71"
                         TextColor="White"
-                        WidthRequest="200"
-                        CornerRadius="10"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        WidthRequest="300"
                         HorizontalOptions="Center"
                         Clicked="OnEasyClicked" />
 
-                <Button Text="Intermediate"
-                        BackgroundColor="#FF4C4C"
+                <Button Text="INTERMEDIATE"
+                        BackgroundColor="#F39C12"
                         TextColor="White"
-                        WidthRequest="200"
-                        CornerRadius="10"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        WidthRequest="300"
                         HorizontalOptions="Center"
                         Clicked="OnIntermediateClicked" />
 
-                <Button Text="Hard"
-                        BackgroundColor="#FF4C4C"
+                <Button Text="HARD"
+                        BackgroundColor="#E74C3C"
                         TextColor="White"
-                        WidthRequest="200"
-                        CornerRadius="10"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        WidthRequest="300"
                         HorizontalOptions="Center"
                         Clicked="OnHardClicked" />
 
-                <StackLayout Padding="0, 45, 0, 0" >
-                    <BoxView HeightRequest="5" 
-                            BackgroundColor="#FFC107" 
-                            HorizontalOptions="FillAndExpand" />
+                <!-- Divider -->
+                <BoxView HeightRequest="5" 
+                         BackgroundColor="#FFD700" 
+                         WidthRequest="300"
+                         HorizontalOptions="Center" />
 
-                </StackLayout>
-                
-                <StackLayout Orientation="Horizontal" Spacing="10" Padding="0, 45, 0, 0">
+                <!-- Score and Reset Section -->
+                <StackLayout Orientation="Horizontal" 
+                             Spacing="16"
+                             HorizontalOptions="Fill">
                     <Label x:Name="HighestScoreLabel" 
-                           Text="Highest Score: 0" 
-                           FontSize="Medium"
+                           Text="🏆 HIGHEST SCORE: 0" 
+                           FontSize="15"
+                           FontAttributes="Bold"
                            HorizontalOptions="StartAndExpand" 
-                           TextColor="Black"
+                           TextColor="White"
                            VerticalOptions="Center" />
 
                     <Button Text="RESET"
-                            BackgroundColor="#FFC107"
+                            BackgroundColor="#555555"
                             TextColor="White"
-                            WidthRequest="80"
-                            CornerRadius="10"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            WidthRequest="90"
                             HorizontalOptions="End"
                             VerticalOptions="Center"
                             Clicked="OnResetClicked" />
                 </StackLayout>
             </StackLayout>
         </AbsoluteLayout>
-        
+
     </ContentPage.Content>
 </ContentPage>
     

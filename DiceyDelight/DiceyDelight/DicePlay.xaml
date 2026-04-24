@@ -2,145 +2,210 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DiceyDelight.DicePlay"
-             BackgroundColor="#F0F0F5"
-             Padding="5">
+             Padding="0">
 
     <ContentPage.Content>
-        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <AbsoluteLayout>
+            <!-- Background Image -->
+            <Image Source="Dice2.jpg"
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+                   AbsoluteLayout.LayoutFlags="All" />
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
-                
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-                
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
+            <BoxView Color="#CC000000"
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All" />
 
-            <StackLayout Grid.Row="0" Orientation="Horizontal" BackgroundColor="#ff9084" HorizontalOptions="FillAndExpand" Padding="10" Spacing="20">
-                <Label x:Name="HighestScoreDisplay" Text="Highest Score: 0" FontSize="Medium" TextColor="Black" />
-                <Label x:Name="DifficultyLevelDisplay" Text="Difficulty: " FontSize="Medium" TextColor="Black" />
-            </StackLayout>
+            <!-- Main Game Layout -->
+            <Grid AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                  AbsoluteLayout.LayoutFlags="All"
+                  RowSpacing="8"
+                  ColumnSpacing="0">
 
-            <StackLayout Grid.Row="1" Padding="0" Margin="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Header: Top Bar -->
+                <StackLayout Grid.Row="0" 
+                             Orientation="Horizontal" 
+                             BackgroundColor="#DD2C3E50" 
+                             Padding="15,10" 
+                             Spacing="20">
+                    <Label x:Name="HighestScoreDisplay" 
+                           Text="Highest Score: 0" 
+                           FontSize="16" 
+                           FontAttributes="Bold"
+                           TextColor="#FFD700" />
+                    <Label x:Name="DifficultyLevelDisplay" 
+                           Text="Difficulty: " 
+                           FontSize="16" 
+                           FontAttributes="Bold"
+                           TextColor="#ECF0F1" />
+                </StackLayout>
+
+                <!-- Computer Turn Indicator -->
                 <BoxView x:Name="ComputerTurnIndicator" 
-                     HeightRequest="5" 
-                     VerticalOptions="Start"
-                     BackgroundColor="Transparent"
-                     HorizontalOptions="FillAndExpand" />
-            </StackLayout>
+                         Grid.Row="1"
+                         HeightRequest="4" 
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="FillAndExpand" />
 
-            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
-                <StackLayout>
-                    <Label x:Name="ComputerNameLabel" Text="Computer" FontSize="Large" Padding="0,0,25,0" TextColor="Black"/>
+                <!-- Computer Section -->
+                <StackLayout Grid.Row="2" 
+                             Orientation="Horizontal" 
+                             HorizontalOptions="Center"
+                             Spacing="30"
+                             Padding="10,5">
+                    <Label x:Name="ComputerNameLabel" 
+                           Text="COMPUTER" 
+                           FontSize="20" 
+                           FontAttributes="Bold"
+                           TextColor="#ECF0F1"/>
+                    <StackLayout Orientation="Vertical" Spacing="4">
+                        <Label x:Name="ComputerTimerLabel" 
+                               Text="Timer: 0" 
+                               FontSize="16" 
+                               TextColor="#ECF0F1"/>
+                        <Label x:Name="ComputerScoreLabel" 
+                               Text="Current Score: 0" 
+                               FontSize="16" 
+                               TextColor="#ECF0F1"/>
+                    </StackLayout>
                 </StackLayout>
 
-                <StackLayout Orientation="Vertical" Margin="10,0,0,0">
-                    <Label x:Name="ComputerTimerLabel" Text="Timer: 0" FontSize="Large" TextColor="Black"/>
-                    <Label x:Name="ComputerScoreLabel" Text="Current Score: 0" Margin="0,0,0,0" TextColor="Black"/>
-                </StackLayout>
-            </StackLayout>
+                <!-- Computer Number Boxes Grid -->
+                <Grid x:Name="NumberBoxesGrid" 
+                      Grid.Row="3" 
+                      HorizontalOptions="Center" 
+                      VerticalOptions="Center"
+                      RowSpacing="8"
+                      ColumnSpacing="8"
+                      Padding="20,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
 
-            <Grid x:Name="NumberBoxesGrid" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="Center">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
+                <!-- Spacer -->
+                <BoxView Grid.Row="4" HeightRequest="10" />
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-            </Grid>
-
-            <StackLayout Grid.Row="4" Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
-              
-                <StackLayout x:Name="DiceBox1" 
-                             WidthRequest="50" 
-                             HeightRequest="50" 
-                             Padding="5" 
-                             BackgroundColor="White" 
+                <!-- Dice Section -->
+                <StackLayout Grid.Row="5" 
+                             Orientation="Horizontal" 
                              HorizontalOptions="Center" 
-                             VerticalOptions="Center">
+                             Spacing="30"
+                             Padding="10">
+                    <StackLayout x:Name="DiceBox1" 
+                                 WidthRequest="60" 
+                                 HeightRequest="60" 
+                                 BackgroundColor="#FFF8E7" 
+                                 HorizontalOptions="Center" 
+                                 VerticalOptions="Center">
+                    </StackLayout>
+                    <StackLayout x:Name="DiceBox2" 
+                                 WidthRequest="60" 
+                                 HeightRequest="60" 
+                                 BackgroundColor="#FFF8E7" 
+                                 HorizontalOptions="Center" 
+                                 VerticalOptions="Center">
+                    </StackLayout>
+                    <StackLayout x:Name="DiceBox3" 
+                                 WidthRequest="60" 
+                                 HeightRequest="60" 
+                                 BackgroundColor="#FFF8E7" 
+                                 HorizontalOptions="Center" 
+                                 VerticalOptions="Center">
+                    </StackLayout>
                 </StackLayout>
 
-               
-                <StackLayout x:Name="DiceBox2" 
-                             WidthRequest="50" 
-                             HeightRequest="50" 
-                             Padding="5" 
-                             BackgroundColor="White" 
-                             HorizontalOptions="Center" 
-                             VerticalOptions="Center">
+                <!-- Roll Button -->
+                <StackLayout Grid.Row="6" 
+                             HorizontalOptions="Center"
+                             Padding="20,10">
+                    <Button x:Name="RollButton" 
+                            Text="ROLL" 
+                            WidthRequest="120" 
+                            HeightRequest="50" 
+                            BackgroundColor="#E74C3C" 
+                            TextColor="White" 
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            CornerRadius="35"
+                            Clicked="RollButton_Clicked" />
                 </StackLayout>
 
-              
-                <StackLayout x:Name="DiceBox3" 
-                             WidthRequest="50" 
-                             HeightRequest="50" 
-                             Padding="5" 
-                             BackgroundColor="White" 
-                             HorizontalOptions="Center" 
-                             VerticalOptions="Center">
+                <!-- Player Number Boxes Grid -->
+                <Grid x:Name="PlayerNumberBoxesGrid" 
+                      Grid.Row="7" 
+                      HorizontalOptions="Center" 
+                      VerticalOptions="Center"
+                      RowSpacing="8"
+                      ColumnSpacing="8"
+                      Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <!-- Player Section -->
+                <StackLayout Grid.Row="8" 
+                             Orientation="Horizontal" 
+                             HorizontalOptions="Center"
+                             Spacing="30"
+                             Padding="20,10">
+                    <Label x:Name="PlayerNameLabel" 
+                           FontSize="20" 
+                           FontAttributes="Bold"
+                           TextColor="#ECF0F1"/>
+                    <StackLayout Orientation="Vertical" Spacing="4">
+                        <Label x:Name="PlayerScoreLabel" 
+                               Text="Current Score: 0" 
+                               FontSize="16" 
+                               TextColor="#ECF0F1"/>
+                        <Label x:Name="PlayerTimerLabel" 
+                               Text="Timer: 0" 
+                               FontSize="16" 
+                               TextColor="#ECF0F1"/>
+                    </StackLayout>
                 </StackLayout>
-            </StackLayout>
 
-            <StackLayout Grid.Row="5" HorizontalOptions="Center">
-                <Button x:Name="RollButton" 
-                        Text="Roll" 
-                        WidthRequest="70" 
-                        HeightRequest="50" 
-                        BackgroundColor="#FF4C4C" 
-                        TextColor="White" 
-                        CornerRadius="10"
-                        Clicked="RollButton_Clicked" />
-            </StackLayout>
-
-            <Grid x:Name="PlayerNumberBoxesGrid" Grid.Row="6" HorizontalOptions="Center" VerticalOptions="Center">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-            </Grid>
-
-            <StackLayout Grid.Row="7" Orientation="Horizontal" HorizontalOptions="Center">
-                <StackLayout>
-                    <Label x:Name="PlayerNameLabel" FontSize="Large" Padding="0,0,25,0" TextColor="Black"/>
-                </StackLayout>
-
-                <StackLayout Orientation="Vertical" Margin="10,0,0,0">
-                    <Label x:Name="PlayerScoreLabel" Text="Current Score: 0" Margin="0,0,0,0" TextColor="Black"/>
-                    <Label x:Name="PlayerTimerLabel" Text="Timer: 0" FontSize="Large" TextColor="Black"/>
-                </StackLayout>              
-            </StackLayout>
-
-            <StackLayout Grid.Row="8" Padding="0" Margin="0">
+                <!-- Player Turn Indicator -->
                 <BoxView x:Name="PlayerTurnIndicator" 
-                     HeightRequest="5" 
-                     VerticalOptions="End"
-                     BackgroundColor="Transparent"
-                     HorizontalOptions="FillAndExpand" />
-            </StackLayout>
-        </Grid>
-        
+                         Grid.Row="9"
+                         HeightRequest="4" 
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="FillAndExpand" />
+
+            </Grid>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
+    
