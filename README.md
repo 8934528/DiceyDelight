@@ -1,16 +1,16 @@
-# 🎲 DiceyDelight
+# DiceyDelight
 
 A fun and engaging two-player dice game built with **Xamarin.Forms** where you compete against the computer. Roll the dice, choose your numbers, and aim for the highest score!
 
 ---
 
-## 📱 About the Game
+## About the Game
 
 DiceyDelight is a turn-based dice game. The player and the computer take turns rolling three dice. The goal is to remove all number boxes from 2 to 12 by matching the sum of two dice. A special star on the third die can steal the opponent's highest number!
 
 ---
 
-## 🎮 Game Features
+## Game Features
 
 - **Three Difficulty Levels** – Easy, Intermediate, and Hard (adjusts timer duration)
 - **Turn-Based Gameplay** – Alternate turns between player and computer
@@ -22,7 +22,7 @@ DiceyDelight is a turn-based dice game. The player and the computer take turns r
 
 ---
 
-## 🧩 Game Rules
+## Game Rules
 
 1. Each turn, the player rolls **three dice**
 2. The sum of the **first two dice** determines which number box (2–12) you can remove
@@ -46,7 +46,7 @@ DiceyDelight is a turn-based dice game. The player and the computer take turns r
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -89,10 +89,6 @@ DiceyDelight is a turn-based dice game. The player and the computer take turns r
 
 ## Screenshots
 
-## Screenshots
-
-## Screenshots
-
 | Main Menu | Gameplay Screen | Win Alert |
 |:---------:|:---------------:|:---------:|
 | ![Main Menu](./DiceyDelight/DiceyDelight/public/MainPage.jpeg) | ![Gameplay](./DiceyDelight/DiceyDelight/public/DicePlay.jpeg) | ![Alert](./DiceyDelight/DiceyDelight/public/Alert.jpeg) |
@@ -116,5 +112,7 @@ Replace `Dice2.jpg` in all platform resource folders:
 
 - Android: Resources/drawable/
 - iOS: Resources/
+
+---
 
 An exciting dice-rolling game developed as a school project by a group of students from the University of Fort Hare.
