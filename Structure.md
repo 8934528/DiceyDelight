@@ -10,6 +10,11 @@
     │     │
     │     └── DiceyDelight/
     │          │
+    │          ├── public/
+    |          |     ├── MainPage.png
+    |          |     ├── DicePlay.png
+    |          |     └── Alert.png
+    │          │
     │          ├── AssemblyInfo.cs
     │          ├── DiceyDelight.csproj
     │          │
