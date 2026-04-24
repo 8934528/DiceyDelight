@@ -91,7 +91,7 @@ DiceyDelight is a turn-based dice game. The player and the computer take turns r
 
 | Main Menu | Gameplay Screen | Win Alert |
 |:---------:|:---------------:|:---------:|
-| ![Main Menu](./DiceyDelight/DiceyDelight/public/MainPage.jpeg) | ![Gameplay](./DiceyDelight/DiceyDelight/public/DicePlay.jpeg) | ![Alert](./DiceyDelight/DiceyDelight/public/Alert.jpeg) |
+| ![Main Menu](./DiceyDelight/DiceyDelight/public/MainPage.jpeg) | ![Alert](./DiceyDelight/DiceyDelight/public/Alert.jpeg) | ![Gameplay](./DiceyDelight/DiceyDelight/public/DicePlay.jpeg) |
 
 ## Customization
 
