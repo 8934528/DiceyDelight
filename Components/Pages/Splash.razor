@@ -1,0 +1,68 @@
+@page "/"
+@page "/splash"
+@implements IDisposable
+@inject IJSRuntime Js
+@inject NavigationManager Nav
+
+<div class="splash-page">
+    <div class="bg-decorations" aria-hidden="true">
+        <div class="deco deco-star deco-1">✦</div>
+        <div class="deco deco-ring deco-2"></div>
+        <div class="deco deco-plus deco-3">+</div>
+        <div class="deco deco-dot deco-4"></div>
+        <div class="deco deco-diamond deco-5"></div>
+        <div class="deco deco-star deco-6">✦</div>
+    </div>
+
+    <div class="splash-container d-flex flex-column align-items-center justify-content-center">
+        <div class="title-container mb-3 text-center">
+            <h1 class="splash-title" id="splash-title"></h1>
+        </div>
+
+        <div class="dice-stage">
+            <div class="dice-row d-flex flex-row justify-content-center align-items-center" id="dice-row">
+                <div class="die-column die-1 d-flex flex-column align-items-center">
+                    <DiceCube Id="d1" />
+                    <div class="die-shadow shadow-1"></div>
+                </div>
+
+                <div class="die-column die-2 d-flex flex-column align-items-center">
+                    <DiceCube Id="d2" />
+                    <div class="die-shadow shadow-2"></div>
+                </div>
+
+                <div class="die-column die-3 d-flex flex-column align-items-center">
+                    <DiceCube Id="d3" IsSpecial="true" />
+                    <div class="die-shadow shadow-3"></div>
+                </div>
+            </div>
+
+            <div class="splash--surface" id="splash-surface"></div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private DotNetObjectReference<Splash>? _dotNetRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _dotNetRef = DotNetObjectReference.Create(this);
+            await Js.InvokeVoidAsync("diceyApp.initSplash", _dotNetRef);
+        }
+    }
+
+    [JSInvokable]
+    public void NavigateTo(string route)
+    {
+        Nav.NavigateTo(route);
+    }
+
+    public void Dispose()
+    {
+        _ = Js.InvokeVoidAsync("diceyApp.cleanupSplash");
+        _dotNetRef?.Dispose();
+    }
+}

@@ -1,0 +1,30 @@
+<div class="player-card" id="@CardId">
+    @if (TimerAtTop)
+    {
+        <div class="player-timer-bar" id="@TimerId"></div>
+    }
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+            <span class="text-secondary fw-semibold player-label">Name:</span>
+            <span class="fw-bold text-dark ms-1 player-value" id="@DisplayNameId">@PlayerName</span>
+        </div>
+        <div class="d-flex align-items-center">
+            <span class="text-secondary fw-semibold player-label score-label">Score:</span>
+            <span class="fw-bold text-dark ms-1 player-value" id="@DisplayScoreId">@Score</span>
+        </div>
+    </div>
+    @if (!TimerAtTop)
+    {
+        <div class="player-timer-bar" id="@TimerId"></div>
+    }
+</div>
+
+@code {
+    [Parameter] public string CardId { get; set; } = "player-card-bottom";
+    [Parameter] public string TimerId { get; set; } = "timer-bottom";
+    [Parameter] public string DisplayNameId { get; set; } = "display-name-bottom";
+    [Parameter] public string DisplayScoreId { get; set; } = "display-score-bottom";
+    [Parameter] public string PlayerName { get; set; } = "Player 1";
+    [Parameter] public int Score { get; set; }
+    [Parameter] public bool TimerAtTop { get; set; }
+}

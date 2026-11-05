@@ -1,0 +1,32 @@
+<header class="game-header fixed-top bg-white border-bottom shadow-sm py-2 px-3">
+    <div class="d-flex justify-content-between align-items-center mx-auto w-100">
+        <div class="d-flex align-items-center">
+            <i class="bi bi-arrow-left fs-4 me-2 text-dark" id="btn-header-back" style="cursor: pointer;" title="Back to Home" @onclick="HandleBack"></i>
+            <span class="text-secondary fw-semibold header-label">High Score:</span>
+            <span class="fw-bold text-dark ms-1 header-value" id="header-high-score">@HighScore</span>
+        </div>
+        <div class="d-flex align-items-center">
+            <span class="text-secondary fw-semibold header-label">Level:</span>
+            <span class="fw-bold text-dark ms-1 header-value" id="header-level">@Level</span>
+        </div>
+    </div>
+</header>
+
+@code {
+    [Parameter] public int HighScore { get; set; } = 112;
+    [Parameter] public string Level { get; set; } = "Easy";
+    [Parameter] public EventCallback OnBackClicked { get; set; }
+    [Inject] public NavigationManager Nav { get; set; } = null!;
+
+    private async Task HandleBack()
+    {
+        if (OnBackClicked.HasDelegate)
+        {
+            await OnBackClicked.InvokeAsync();
+        }
+        else
+        {
+            Nav.NavigateTo("home");
+        }
+    }
+}

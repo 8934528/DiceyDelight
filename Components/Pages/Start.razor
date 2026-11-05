@@ -1,0 +1,202 @@
+@page "/start"
+@page "/game"
+@implements IDisposable
+@inject IJSRuntime Js
+@inject NavigationManager Nav
+@inject DiceGameEngine GameEngine
+
+<div class="game-page">
+    <header class="sticky-top bg-white border-bottom shadow-sm py-2 px-3 game-header w-100">
+        <div class="d-flex justify-content-between align-items-center mx-auto" style="max-width: 480px; width: 100%;">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-arrow-left fs-4 me-2 text-dark" id="btn-header-back" style="cursor: pointer;" title="Back to Home"></i>
+                <span class="text-secondary fw-semibold header-label">High Score:</span>
+                <span class="fw-bold text-dark ms-1 header-value" id="header-high-score">@GameEngine.HighScore</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <div class="d-flex align-items-center">
+                    <span class="text-secondary fw-semibold header-label">Level:</span>
+                    <span class="fw-bold text-dark ms-1 header-value" id="header-level">Easy</span>
+                </div>
+                <button type="button" class="btn p-0 border-0 bg-transparent sound-toggle-button" id="btn-sound-toggle" title="Mute/Unmute Sound" aria-label="Toggle Sound">
+                    <i class="bi bi-volume-up-fill fs-5 sound-toggle-icon text-dark"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="game-layout-container d-flex flex-column align-items-center gap-3 mt-5 mb-4">
+        <PlayerCard CardId="player-card-top"
+                    TimerId="timer-top"
+                    DisplayNameId="display-name-top"
+                    DisplayScoreId="display-score-top"
+                    PlayerName="Player 2"
+                    Score="0"
+                    TimerAtTop="false" />
+
+        <NumberGrid Id="circles-top" Inverted="true" />
+
+        <div class="play-arena my-2" id="play-arena">
+            <div class="dice-row d-flex flex-row justify-content-center align-items-center" id="dice-row">
+                <div class="d-flex flex-column align-items-center">
+                    <DiceCube Id="d1" />
+                    <div class="cube-shadow"></div>
+                </div>
+
+                <div class="d-flex flex-column align-items-center">
+                    <DiceCube Id="d2" />
+                    <div class="cube-shadow"></div>
+                </div>
+
+                <div class="d-flex flex-column align-items-center">
+                    <DiceCube Id="d3" IsSpecial="true" />
+                    <div class="cube-shadow"></div>
+                </div>
+            </div>
+
+            <div class="action-row d-flex flex-row justify-content-between align-items-center" id="action-row">
+                <div class="action-col d-flex justify-content-center align-items-center">
+                    <div class="outcome-badge" id="label-sum">2</div>
+                </div>
+                <div class="action-col d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn px-4 py-2 fw-bold shadow-sm" id="btn-roll" aria-label="Roll Dice">
+                        <i class="bi bi-shuffle fs-4"></i>
+                    </button>
+                </div>
+                <div class="action-col d-flex justify-content-center align-items-center">
+                    <div class="outcome-badge" id="label-d3">★</div>
+                </div>
+            </div>
+        </div>
+
+        <NumberGrid Id="circles-bottom" Inverted="false" />
+
+        <PlayerCard CardId="player-card-bottom"
+                    TimerId="timer-bottom"
+                    DisplayNameId="display-name-bottom"
+                    DisplayScoreId="display-score-bottom"
+                    PlayerName="Player 1"
+                    Score="0"
+                    TimerAtTop="true" />
+    </div>
+
+    <div id="modal-backdrop" class="game-modal-backdrop">
+        <div id="intro-modal" class="game-modal-card p-3 shadow-lg">
+            <div class="modal-indicator-box mb-2 p-2 rounded bg-light border text-center">
+                <div class="d-flex align-items-center justify-content-center gap-2 fw-bold theme-color mb-1">
+                    <i class="bi bi-arrow-up-circle-fill fs-5 theme-color"></i>
+                    <span id="modal-top-name">Computer</span>
+                </div>
+                <div class="text-secondary small" id="modal-top-desc">Computer will be at the top</div>
+            </div>
+
+            <div class="modal-middle-box text-center py-2 px-2 my-2 rounded border bg-white">
+                <i class="bi bi-stopwatch fs-3 text-secondary mb-1 d-block"></i>
+                <p class="mb-0 fw-semibold text-dark modal-instruction" id="modal-timer-instruction">
+                    The timer will start from <span class="theme-color fw-bold" id="modal-p1-target">Player 1</span> as soon as the Game Starts
+                </p>
+            </div>
+
+            <div class="modal-indicator-box mb-3 p-2 rounded bg-light border text-center">
+                <div class="d-flex align-items-center justify-content-center gap-2 fw-bold text-success mb-1">
+                    <span id="modal-bottom-name">Player 1</span>
+                    <i class="bi bi-arrow-down-circle-fill fs-5"></i>
+                </div>
+                <div class="text-secondary small">Player 1 is at the bottom</div>
+            </div>
+
+            <button type="button" class="btn btn-theme w-100 py-2 fw-bold d-flex justify-content-center align-items-center gap-2 shadow-sm" id="btn-modal-start">
+                <span>Start Game</span>
+                <i class="bi bi-play-fill fs-5"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="game-over-backdrop" class="game-modal-backdrop" style="display: none;">
+        <canvas id="fireworks-canvas" class="fireworks-canvas"></canvas>
+        <div id="game-over-modal" class="game-modal-card p-4 shadow-lg text-center" style="position: relative; z-index: 10;">
+            <div class="modal-watermark" aria-hidden="true">
+                <img src="images/dicey_delight_logo.svg" alt="" />
+            </div>
+            <div class="modal-content-layer">
+                <div class="mb-2">
+                    <i class="bi bi-trophy-fill fs-1 text-warning" id="game-over-icon"></i>
+                </div>
+                <h3 class="fw-bold mb-2 finger-paint-title" id="game-over-title">Winner!</h3>
+                <div class="finger-paint-name mb-2" id="game-over-winner-name">Player 1</div>
+                <p class="text-secondary small mb-3" id="game-over-message">Cleared all numbers first!</p>
+                <div class="d-flex flex-column gap-2">
+                    <button type="button" class="btn btn-theme w-100 py-2 fw-bold d-flex justify-content-center align-items-center gap-2" id="btn-play-again">
+                        <i class="bi bi-arrow-clockwise fs-5"></i>
+                        <span>Play Again</span>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary w-100 py-2 fw-bold d-flex justify-content-center align-items-center gap-2" id="btn-game-over-home">
+                        <i class="bi bi-house-door-fill fs-5"></i>
+                        <span>Home</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private DotNetObjectReference<Start>? _dotNetRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _dotNetRef = DotNetObjectReference.Create(this);
+            await Js.InvokeVoidAsync("diceyApp.initStart", _dotNetRef);
+        }
+    }
+
+    [JSInvokable]
+    public GameSnapshot InitGameInCSharp(string p1, string p2, string mode, string difficulty, int highScore)
+    {
+        return GameEngine.InitializeGame(p1, p2, mode, difficulty, highScore);
+    }
+
+    [JSInvokable]
+    public void StartGameInCSharp()
+    {
+        GameEngine.StartGame();
+    }
+
+    [JSInvokable]
+    public DiceRollResult RollDiceInCSharp()
+    {
+        return GameEngine.RollDice();
+    }
+
+    [JSInvokable]
+    public TurnResult ProcessTurnInCSharp(int d1, int d2, int d3Face)
+    {
+        var roll = new DiceRollResult
+        {
+            Die1 = d1,
+            Die2 = d2,
+            Die3Face = d3Face
+        };
+        return GameEngine.ProcessRoll(roll);
+    }
+
+    [JSInvokable]
+    public TimerTickResult TickTimerInCSharp(double deltaSeconds)
+    {
+        return GameEngine.TickTimer(deltaSeconds);
+    }
+
+    [JSInvokable]
+    public void NavigateTo(string route)
+    {
+        Nav.NavigateTo(route);
+    }
+
+    public void Dispose()
+    {
+        _ = Js.InvokeVoidAsync("diceyApp.cleanupStart");
+        _dotNetRef?.Dispose();
+    }
+}

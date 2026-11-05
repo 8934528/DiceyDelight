@@ -1,0 +1,27 @@
+<div class="scene">
+    <div class="cube" id="@Id">
+        @if (IsSpecial)
+        {
+            <div class="face f1"><span class="star">★</span></div>
+            <div class="face f2"></div>
+            <div class="face f3"></div>
+            <div class="face f4"></div>
+            <div class="face f5"></div>
+            <div class="face f6"></div>
+        }
+        else
+        {
+            <div class="face f1"><span class="dot"></span></div>
+            <div class="face f2"><span class="dot"></span><span class="dot"></span></div>
+            <div class="face f3"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <div class="face f4"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <div class="face f5"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <div class="face f6"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Id { get; set; } = "d1";
+    [Parameter] public bool IsSpecial { get; set; }
+}

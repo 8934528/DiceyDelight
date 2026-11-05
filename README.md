@@ -1,118 +1,87 @@
-# DiceyDelight
+# Dicey Delight
 
-A fun and engaging two-player dice game built with **Xamarin.Forms** where you compete against the computer. Roll the dice, choose your numbers, and aim for the highest score!
-
----
-
-## About the Game
-
-DiceyDelight is a turn-based dice game. The player and the computer take turns rolling three dice. The goal is to remove all number boxes from 2 to 12 by matching the sum of two dice. A special star on the third die can steal the opponent's highest number!
+A fast, fun, and modern two-player dice board game built with **.NET MAUI** and **Blazor Hybrid**. Play solo against the computer or challenge a friend in local pass-and-play multiplayer mode.
 
 ---
 
-## Game Features
+## Built With
 
-- **Three Difficulty Levels** – Easy, Intermediate, and Hard (adjusts timer duration)
-- **Turn-Based Gameplay** – Alternate turns between player and computer
-- **Timer System** – Each turn has a time limit; if time expires, the opponent wins
-- **Star Mechanic** – Rolling a star lets you steal the opponent’s highest remaining number
-- **Score Tracking** – Current scores and highest score are displayed
-- **Win/Loss Alerts** – Custom popups with images for game over or victory
-- **Persistent High Score** – Highest score is saved across game sessions
-
----
-
-## Game Rules
-
-1. Each turn, the player rolls **three dice**
-2. The sum of the **first two dice** determines which number box (2–12) you can remove
-3. If the box is still available, it is removed and added to your score
-4. If the **third die shows a star (★)**:
-   - You **steal the opponent's highest remaining number**
-   - Their score decreases, and the box is restored to their board
-5. The first player to remove **all 11 number boxes (2–12)** wins
-6. If the timer runs out on your turn, you lose immediately
+[![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/apps/maui)
+[![Blazor Hybrid](https://img.shields.io/badge/Blazor_Hybrid-512BD4?style=for-the-badge&logo=blazor&logoColor=white)](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![.NET 10](https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Bootstrap 5](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
 ---
 
-## Technology Stack
+## Features
 
-| Technology      | Purpose                         |
-|-----------------|---------------------------------|
-| Xamarin.Forms   | Cross-platform UI framework     |
-| C#              | Game logic and backend          |
-| XAML            | User interface design           |
-| .NET Standard   | Shared code library             |
+- **Two Game Modes**: Play solo against the Computer or against a friend in local Multiplayer.
+- **Three Difficulty Levels**:
+  - **Easy**: 120 seconds per player
+  - **Median**: 60 seconds per player
+  - **Hard**: 30 seconds per player
+- **Interactive 3D Dice**: Animated 3D dice rolling with realistic physics.
+- **Star Steal Mechanic**: Roll a star on the third die to steal your opponent's highest cleared number.
+- **Sound Effects**: Custom audio with Web Audio API and quick mute/unmute toggle.
+- **Score Tracking**: Live scores, persistent high score, and winner celebration fireworks.
+- **Cross-Platform**: Runs on Android, Windows, iOS, and macOS.
 
 ---
 
-## Getting Started
+## Quick Start
 
-### Prerequisites
+### 1. Prerequisites
 
-- Visual Studio 2019 or later (with Xamarin workload installed)
-- .NET Framework 4.7.2 or .NET 5+
-- Android SDK / iOS simulator (optional)
+- [.NET 10 SDK](https://dotnet.microsoft.com/)
+- Visual Studio 2022+ (with MAUI workload) or VS Code
 
-### Installation
+### 2. Clone and Run
 
-1. Clone the repository:
+```bash
+git clone https://github.com/username/DiceyDelight.git
+cd DiceyDelight
+dotnet restore
+```
 
-      bash
-      git clone `https://github.com/username/DiceyDelight.git`
+To run on Windows:
 
-2. Open `DiceyDelight.sln` in Visual Studio or open it on VS Cide or Antigravity or Cursor
+```bash
+dotnet build -t:Run -f net10.0-windows10.0.19041.0
+```
 
-3. Restore NuGet packages (if any)
+To run on Android:
 
-4. Build the solution:
+```bash
+dotnet build -t:Run -f net10.0-android
+```
 
-      text
-      Build > Rebuild Solution
+For full instructions, see [DOCS/SETUP.md](DOCS/SETUP.md).
 
-5. Run the app:
-
-   - Select an emulator (Android/iOS)
-
-   - Press F5 or click Start3.
-
-- or run `DiceyDelight.csproj` in VS code (`dotnet run`)
+---
 
 ## How to Play
 
-1. Enter your name on the main screen
-2. Select difficulty – Easy (longer timer) to Hard (shorter timer)
-3. Click "ROLL" on your turn to roll the dice
-4. The sum of the first two dice removes a number box
-5. A star on the third die steals from the opponent
-6. Try to clear all boxes before the computer and before your timer runs out
+1. Enter your name and choose **Single Player** (vs Computer) or **Multiplayer**.
+2. Select your difficulty level (Easy, Median, or Hard).
+3. On your turn, tap the **Roll** button.
+4. The sum of the first two dice removes that number box (2 to 12) from your board.
+5. If the third die rolls a **Star (★)**, you steal your opponent's highest cleared number!
+6. First player to clear all 11 numbers—or whose opponent runs out of time—wins the game!
 
-## Screenshots
-
-| Main Menu | Gameplay Screen | Win Alert |
-|:---------:|:---------------:|:---------:|
-| ![Main Menu](./DiceyDelight/DiceyDelight/public/MainPage.jpeg) | ![Alert](./DiceyDelight/DiceyDelight/public/Alert.jpeg) | ![Gameplay](./DiceyDelight/DiceyDelight/public/DicePlay.jpeg) |
-
-## Customization
-
-### Change Timer Values
-
-Modify the timer duration passed to `DicePlay` in `MainPage.xaml.cs`:
-
-      csharp
-      private void OnEasyClicked(object sender, EventArgs e)
-      {
-         int timerValue = 20; // Easy = 20 seconds
-         Navigation.PushAsync(new DicePlay(timerValue, NameInput.Text, "Easy"));
-      }
-
-### Change Background Image
-
-Replace `Dice2.jpg` in all platform resource folders:
-
-- Android: Resources/drawable/
-- iOS: Resources/
+For detailed rules and strategies, read [HOW_TO_PLAY.md](HOW_TO_PLAY.md).
 
 ---
 
-An exciting dice-rolling game developed as a school project by a group of students from the University of Fort Hare.
+## Screenshots
+
+|                           Home Page                            |                          Alert                          |                        Gameplay Screen                        |
+|:--------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------------:|
+| ![Main Menu](./DiceyDelight/DiceyDelight/public/MainPage.jpeg) | ![Alert](./DiceyDelight/DiceyDelight/public/Alert.jpeg) | ![Gameplay](./DiceyDelight/DiceyDelight/public/DicePlay.jpeg) |
+
+---
+
+Developed with passion by students from the University of Fort Hare.

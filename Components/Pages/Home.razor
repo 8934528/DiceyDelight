@@ -1,0 +1,142 @@
+@page "/home"
+@inject IJSRuntime Js
+@inject NavigationManager Nav
+
+<div class="home-page">
+    <div class="home-watermark" aria-hidden="true">
+        <img src="images/dicey_delight_logo.svg" alt="" />
+    </div>
+
+    <div class="home-container d-flex flex-column align-items-center gap-3">
+        <div class="text-center w-100 mb-1">
+            <div class="row align-items-center g-0">
+                <div class="col-9">
+                    <h1 class="welcome-heading fw-bold text-dark text-center mb-0">Welcome</h1>
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                    <button type="button" class="btn p-0 border-0 bg-transparent" id="btn-sound-toggle-home" title="Mute/Unmute Sound" aria-label="Toggle Sound">
+                        <i class="bi bi-volume-up-fill fs-5 sound-toggle-icon text-secondary"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col"><span class="welcome-line">to</span></div>
+            </div>
+            <div class="row g-0">
+                <div class="col"><h2 class="welcome-heading fw-bold text-dark mb-1">Dicey Delight</h2></div>
+            </div>
+            <p class="text-secondary welcome-sub mb-0">Configure your game settings</p>
+        </div>
+
+        <div class="settings-card w-100">
+            <label class="form-label text-secondary fw-semibold mb-2 d-flex align-items-center">
+                Game Mode
+            </label>
+            <div class="row g-2">
+                <div class="col-6">
+                    <input type="radio" class="btn-check" name="gameMode" id="mode-single" value="single" checked autocomplete="off">
+                    <label class="btn btn-mode w-100 py-2 d-flex flex-column align-items-center gap-1" for="mode-single">
+                        <i class="bi bi-cpu fs-4"></i>
+                        <span class="fw-semibold">Computer</span>
+                    </label>
+                </div>
+                <div class="col-6">
+                    <input type="radio" class="btn-check" name="gameMode" id="mode-multi" value="multi" autocomplete="off">
+                    <label class="btn btn-mode w-100 py-2 d-flex flex-column align-items-center gap-1" for="mode-multi">
+                        <i class="bi bi-people-fill fs-4"></i>
+                        <span class="fw-semibold">Multiplayer</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="settings-card w-100" id="players-card">
+            <div id="player1-group">
+                <label for="player1-name" class="form-label text-secondary fw-semibold mb-1 d-flex align-items-center">
+                    Player 1
+                </label>
+                <div class="input-group">
+                    <span class="input-group-text bg-light text-secondary border-end-0">
+                        <i class="bi bi-person fs-5"></i>
+                    </span>
+                    <input type="text" class="form-control border-start-0 ps-2" id="player1-name" placeholder="Enter your name" maxlength="20" required>
+                </div>
+            </div>
+
+            <div id="player2-wrapper" class="player2-collapsed">
+                <div class="pt-3">
+                    <label for="player2-name" class="form-label text-secondary fw-semibold mb-1 d-flex align-items-center">
+                        Player 2
+                    </label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light text-secondary border-end-0">
+                            <i class="bi bi-person fs-5"></i>
+                        </span>
+                        <input type="text" class="form-control border-start-0 ps-2" id="player2-name" placeholder="Enter Player 2 name" maxlength="20">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="settings-card w-100">
+            <label class="form-label text-secondary fw-semibold mb-2 d-flex align-items-center">
+                Difficulty Level
+            </label>
+            <div class="row g-2">
+                <div class="col-4">
+                    <input type="radio" class="btn-check" name="difficulty" id="diff-easy" value="Easy" data-time="120" checked autocomplete="off">
+                    <label class="btn btn-diff w-100 py-2 d-flex flex-column align-items-center justify-content-center" for="diff-easy">
+                        <span class="d-flex align-items-center justify-content-center gap-1 fw-bold text-nowrap">
+                            <i class="bi bi-shield-check"></i> Easy
+                        </span>
+                    </label>
+                </div>
+                <div class="col-4">
+                    <input type="radio" class="btn-check" name="difficulty" id="diff-median" value="Median" data-time="60" autocomplete="off">
+                    <label class="btn btn-diff w-100 py-2 d-flex flex-column align-items-center justify-content-center" for="diff-median">
+                        <span class="d-flex align-items-center justify-content-center gap-1 fw-bold text-nowrap">
+                            <i class="bi bi-lightning-charge"></i> Median
+                        </span>
+                    </label>
+                </div>
+                <div class="col-4">
+                    <input type="radio" class="btn-check" name="difficulty" id="diff-hard" value="Hard" data-time="30" autocomplete="off">
+                    <label class="btn btn-diff w-100 py-2 d-flex flex-column align-items-center justify-content-center" for="diff-hard">
+                        <span class="d-flex align-items-center justify-content-center gap-1 fw-bold text-nowrap">
+                            <i class="bi bi-fire"></i> Hard
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-next w-100 py-3 fw-bold shadow-sm d-flex justify-content-center align-items-center gap-2" id="btn-next">
+            <span>Next</span>
+            <i class="bi bi-arrow-right fs-5"></i>
+        </button>
+    </div>
+</div>
+
+@code {
+    private DotNetObjectReference<Home>? _dotNetRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _dotNetRef = DotNetObjectReference.Create(this);
+            await Js.InvokeVoidAsync("diceyApp.initHome", _dotNetRef);
+        }
+    }
+
+    [JSInvokable]
+    public void NavigateTo(string route)
+    {
+        Nav.NavigateTo(route);
+    }
+
+    public void Dispose()
+    {
+        _dotNetRef?.Dispose();
+    }
+}
