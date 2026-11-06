@@ -78,9 +78,9 @@ For detailed rules and strategies, read [HOW_TO_PLAY.md](HOW_TO_PLAY.md).
 
 ## Screenshots
 
-|                           Home Page                            |                          Alert                          |                        Gameplay Screen                        |
-|:--------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------------:|
-| ![Main Menu](./DiceyDelight/DiceyDelight/public/MainPage.jpeg) | ![Alert](./DiceyDelight/DiceyDelight/public/Alert.jpeg) | ![Gameplay](./DiceyDelight/DiceyDelight/public/DicePlay.jpeg) |
+|                           Home Page                            |                         Ready to Play                          |                        Gameplay Screen                        |                         Game Results                          |
+|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
+| ![Home Page](./DiceyDelight/DiceyDelight/public/home.png)      | ![Ready to Play](./DiceyDelight/DiceyDelight/public/readytoplay.png) | ![Gameplay](./DiceyDelight/DiceyDelight/public/startplay.png) | ![Game Results](./DiceyDelight/DiceyDelight/public/results.png) |
 
 ---
 

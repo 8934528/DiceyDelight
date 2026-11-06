@@ -194,3 +194,26 @@
 .btn-next:active {
     transform: scale(0.98);
 }
+
+.sound-card {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-bg, #ffffff);
+    border: 1px solid var(--card-border, #dee2e6);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.home-page .sound-card {
+    position: relative;
+    left: -3px;
+}
+
+.welcome-title {
+    position: relative;
+    left: 3px;
+}
